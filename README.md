@@ -4,20 +4,21 @@ This is a Streamlit application that helps estimate the probability of attaining
 
 ## Project Structure
 
+```
 pipeliner/ 
 ├── app/ 
 │ ├── init.py 
 │ ├── data_utils.py 
 │ ├── simulation.py 
 │ ├── visualization.py 
-│ └── main.py 
+└── app.py 
 ├── tests/ 
 │ ├── init.py 
 │ ├── test_data_utils.py 
 │ └── test_simulation.py 
 ├── requirements.txt 
 └── README.md
-
+```
 
 ## Installation
 
@@ -27,7 +28,7 @@ pipeliner/
 
 ## Usage
 
-1.  Run the Streamlit app: `streamlit run app/main.py`
+1.  Run the Streamlit app: `streamlit run app.py`
 2.  Follow the instructions in the app to upload your deals CSV and run the simulations.
 
 ## Testing

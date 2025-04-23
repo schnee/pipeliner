@@ -5,19 +5,23 @@ This is a Streamlit application that helps estimate the probability of attaining
 ## Project Structure
 
 ```
-pipeliner/ 
-├── app/ 
-│ ├── init.py 
-│ ├── data_utils.py 
-│ ├── simulation.py 
-│ ├── visualization.py 
-└── app.py 
-├── tests/ 
-│ ├── init.py 
-│ ├── test_data_utils.py 
-│ └── test_simulation.py 
-├── requirements.txt 
-└── README.md
+pipeliner
+├── app
+│   ├── __init__.py
+│   ├── data_utils.py
+│   ├── simulation.py
+│   └── visualization.py
+├── app.py
+├── cli.py
+├── one_file_app.py
+├── pipeline.csv
+├── README.md
+├── requirements.txt
+├── revenue_distribution.png
+└── tests
+    ├── __init__.py
+    ├── test_data_utils.py
+    └── test_simulation.py
 ```
 
 ## Installation

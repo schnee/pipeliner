@@ -30,10 +30,13 @@ pipeliner
 2.  Navigate to the project directory: `cd pipeliner`
 3.  Install the dependencies: `pip install -r requirements.txt`
 
-## Usage
+## Streamlit Usage
 
 1.  Run the Streamlit app: `streamlit run app.py`
 2.  Follow the instructions in the app to upload your deals CSV and run the simulations.
+
+## CMDLINE Usage
+1. python cli -f pipepline.csv -r 1000000
 
 ## Testing
 
